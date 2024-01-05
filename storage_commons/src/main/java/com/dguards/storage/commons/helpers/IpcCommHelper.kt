@@ -10,7 +10,7 @@ class IpcCommHelper {
   companion object {
     private const val dataKey = "data"
 
-    private fun buildIpcMessageBundle(
+    fun buildIpcMessageBundle(
       callbackCode: Long,
       packageName: String,
       json: String?
@@ -23,7 +23,7 @@ class IpcCommHelper {
       return bundle
     }
 
-    private fun getIpcMessageData(message: Message): IpcCommBase {
+    fun getIpcMessageData(message: Message): IpcCommBase {
       val bundle = message.data
 
       // set class loader - required
