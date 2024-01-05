@@ -1,4 +1,4 @@
-package com.dguards.storage.commons
+package com.dguards.storage.commons.models
 
 import android.os.Parcel
 import android.os.Parcelable
