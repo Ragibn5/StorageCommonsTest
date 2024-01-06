@@ -7,5 +7,6 @@ package com.dguards.storage.commons.constants
 class EntryPoints {
   companion object {
     const val GET_CONNECTION_MODEL: Int = 1001
+    const val REQUEST_NEW_CONNECTION_MODEL: Int = 1002
   }
 }
